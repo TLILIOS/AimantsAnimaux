@@ -11,6 +11,11 @@
 		5745F5E82C4819FE008D528B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F5E72C4819FE008D528B /* ContentView.swift */; };
 		5745F5EA2C481A00008D528B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5745F5E92C481A00008D528B /* Assets.xcassets */; };
 		5745F5ED2C481A00008D528B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5745F5EC2C481A00008D528B /* Preview Assets.xcassets */; };
+		5745F5F42C481D56008D528B /* AnimalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F5F32C481D56008D528B /* AnimalsListView.swift */; };
+		5745F5F62C4821DA008D528B /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F5F52C4821DA008D528B /* AnimalDetailView.swift */; };
+		5745F5F82C482396008D528B /* AddNewAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F5F72C482396008D528B /* AddNewAnimalView.swift */; };
+		5745F5FA2C48241B008D528B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F5F92C48241B008D528B /* ViewModel.swift */; };
+		5745F5FC2C483108008D528B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5745F5FB2C483108008D528B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5745F5E72C4819FE008D528B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5745F5E92C481A00008D528B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5745F5EC2C481A00008D528B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5745F5F32C481D56008D528B /* AnimalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsListView.swift; sourceTree = "<group>"; };
+		5745F5F52C4821DA008D528B /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		5745F5F72C482396008D528B /* AddNewAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAnimalView.swift; sourceTree = "<group>"; };
+		5745F5F92C48241B008D528B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5745F5FB2C483108008D528B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		5745F5E42C4819FE008D528B /* AimantsAnimaux */ = {
 			isa = PBXGroup;
 			children = (
+				5745F5FB2C483108008D528B /* Images.xcassets */,
+				5745F5F32C481D56008D528B /* AnimalsListView.swift */,
+				5745F5F52C4821DA008D528B /* AnimalDetailView.swift */,
+				5745F5F72C482396008D528B /* AddNewAnimalView.swift */,
 				5745F5E52C4819FE008D528B /* AimantsAnimauxApp.swift */,
 				5745F5E72C4819FE008D528B /* ContentView.swift */,
+				5745F5F92C48241B008D528B /* ViewModel.swift */,
 				5745F5E92C481A00008D528B /* Assets.xcassets */,
 				5745F5EB2C481A00008D528B /* Preview Content */,
 			);
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5745F5FC2C483108008D528B /* Images.xcassets in Resources */,
 				5745F5ED2C481A00008D528B /* Preview Assets.xcassets in Resources */,
 				5745F5EA2C481A00008D528B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5745F5E82C4819FE008D528B /* ContentView.swift in Sources */,
+				5745F5F62C4821DA008D528B /* AnimalDetailView.swift in Sources */,
 				5745F5E62C4819FE008D528B /* AimantsAnimauxApp.swift in Sources */,
+				5745F5F82C482396008D528B /* AddNewAnimalView.swift in Sources */,
+				5745F5FA2C48241B008D528B /* ViewModel.swift in Sources */,
+				5745F5F42C481D56008D528B /* AnimalsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
