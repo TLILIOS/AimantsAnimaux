@@ -53,7 +53,9 @@ struct AnimalDetailView: View {
     
 }
 
-// -To Be Fexed: -
-#Preview {    
+#Preview {
     AnimalDetailView(animal: animalList[0])
+}
+#Preview {
+    AnimalDetailView(animal: animalList[1])
 }

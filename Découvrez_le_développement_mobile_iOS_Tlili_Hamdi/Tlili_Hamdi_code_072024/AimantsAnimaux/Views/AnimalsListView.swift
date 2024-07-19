@@ -65,3 +65,4 @@ struct AnimalsListView: View {
 #Preview {
     AnimalsListView()
 }
+

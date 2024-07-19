@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AimantsAnimaux
 //
-//  Created by HTLILI on 17/07/2024.
+//  Created by Amandine Cousin on 04/10/2023.
 //
 
 import SwiftUI
@@ -10,9 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
         }
         .padding()
